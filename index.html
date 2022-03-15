@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+
+    <!-- video-js -->
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+
+    <!-- wow -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="root" class="">
+        <header id="header-diner">
+            <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Diner</a>
+                <div class="search_menu">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search here...">
+                        <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    <button class="change_theme">
+                        <i class="far fa-sun"></i>
+                        <i class="far fa-moon"></i>
+                    </button>
+                    <button class="menu" data-toggle="modal" data-target="#menu_Modal">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="modal" id="menu_Modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <i class="fas fa-times"></i></button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">404</a></li>
+                                        <li><a href="#">Landing Page</a> </li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Shot Codes</a> </li>
+                                        <li><a href="#">Email</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+
+        </header>
+        <section id="banner">
+            <div class="banner_content">
+                <h3>The Only Thing We Love More Than Food Is You!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed consequuntur
+                    illum
+                    facere.
+                </p>
+                <button class="btn btn-outline-light"><span>Read more </span><i
+                        class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        <section id="about_us">
+            <div class="about_us row">
+                <div class="about_title col-lg-5 col-md-12">
+                    <p>About Us</p>
+                    <h3>We found our creative space that is open for you.</h3>
+                </div>
+                <div class="about_content col-lg-7 col-md-12">
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                        amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!Lorem ipsum init dolor
+                        sit.</p>
+                    <span>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                        amet.</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="restaurant">
+            <div class="row">
+                <div class="restaurant_img col-lg-6 col-md-12">
+                    <img src="./img/banner3.jpg" alt="">
+                </div>
+                <div class="restaurant_content col-lg-6 col-md-12">
+                    <div class="introduction">
+                        <p class="chukieu">More than 3000 Restaurants</p>
+                        <h3>Book a table easly at the best price</h3>
+                        <span>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet
+                            mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</span>
+                    </div>
+                    <div class="deal_food row">
+                        <div class="deal_food_item col-lg-6 col-md-6 col-6">
+                            <div class="icon">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <h3>Best Deals</h3>
+                            <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                        </div>
+                        <div class="deal_food_item col-lg-6 col-md-6 col-6">
+                            <div class="icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>Best Food</h3>
+                            <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="category">
+            <div class="category_title">
+                <p class="chukieu">What's New</p>
+                <h3>Popular Categories</h3>
+            </div>
+            <ul class="category_content row">
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g1.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Vegetarian</h6>
+                        <span>$350</span>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g2.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Drinks</h6>
+                        <span>$550</span>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g3.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Lunch</h6>
+                        <span>$650</span>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g4.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Bakely</h6>
+                        <span>$550</span>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g5.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Desserts</h6>
+                        <span>$750</span>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <img src="./img/g6.jpg" alt="">
+                    <div class="name_price">
+                        <h6>Pizza</h6>
+                        <span>$850</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="list_food">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="name">
+                                <p>01</p>
+                                <h6>Soup</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="name">
+                                <p>02</p>
+                                <h6>Drinks</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fas fa-thermometer-full"></i>
+                            </div>
+                            <div class="name">
+                                <p>03</p>
+                                <h6>Pizza</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fas fa-american-sign-language-interpreting"></i>
+                            </div>
+                            <div class="name">
+                                <p>04</p>
+                                <h6>Breakfast</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="name">
+                                <p>05</p>
+                                <h6>Lunch</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="boder">
+                        <div class="title">
+                            <div class="icon">
+                                <i class="fa fa-eraser"></i>
+                            </div>
+                            <div class="name">
+                                <p>06</p>
+                                <h6>Dinner</h6>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="deliciousness" class="pb-5">
+            <div class="background">
+                <div class="deliciousness_content">
+                    <h3>Deliciousness jumping into the mouth.</h3>
+                    <div class="deliciousness_button">
+                        <button type="button" class="btn btn-outline-light btn_read_more"><span>Read More</span><i
+                                class="fas fa-angle-right"></i></button>
+                        <button type="button" class="btn btn_contact_us"><span>Contact US</span><i
+                                class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="row count_number">
+                    <div class="count_item col-lg-3 col-md-3 col-6">
+                        <div class="wrap">
+                            <div class="icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <span class="counter">15,100</span>
+                            <p>Branches</p>
+                        </div>
+                    </div>
+                    <div class="count_item col-lg-3 col-md-3 col-6">
+                        <div class="wrap">
+                            <div class="icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <span class="counter">19,256</span>
+                            <p>Food Items</p>
+                        </div>
+                    </div>
+                    <div class="count_item col-lg-3 col-md-3 col-6">
+                        <div class="wrap">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <span class="counter">12,100</span>
+                            <p>Chefs</p>
+                        </div>
+                    </div>
+                    <div class="count_item col-lg-3 col-md-3 col-6">
+                        <div class="wrap">
+                            <div class="icon">
+                                <i class="far fa-smile"></i>
+                            </div>
+                            <span class="counter">2,560</span>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="background_video">
+                <div class="video row py-lg-5">
+                    <a href="" data-toggle="modal" data-target="#video_Modal"><i class="fas fa-play"></i></a>
+                </div>
+                <div class="modal" id="video_Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <button type="button" class="close" id="close_video" data-dismiss="modal">X</button>
+                            </div>
+
+                            <div class="modal-body">
+                                <iframe src="https://player.vimeo.com/video/305185528" frameborder="0"
+                                    allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="latest__posts">
+            <div class="container py-md-5 py-2">
+                <div class="title__post text-center ">
+                    <p class="chukieu">Latest Posts</p>
+                    <h3>Blog Posts</h3>
+                </div>
+                <div class="title__content row">
+                    <div class="content col-lg-4 col-md-6">
+                        <div class="img">
+                            <img src="./img/banner1.jpg" alt="">
+                            <div class="card">
+                                <a
+                                    href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">Reciepe</a>
+                                <i class="fas fa-clock"></i>
+                                <span>10 Min Cook</span>
+                            </div>
+                        </div>
+                        <h4>The Best Cookie Recipes To Bake This Weekend</h4>
+                        <p>Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi vitae sit.</p>
+                        <div class="content__footer d-flex align-items-center">
+                            <div>
+                                <img class="rounded-circle" style="width: 15%;" src="./img/team1.jpg" alt="">
+                                <a href="#">Rashed Kabir</a>
+                            </div>
+                            <a class="text-nowrap"
+                                href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/index.html#read">Read
+                                More</a>
+                        </div>
+                    </div>
+                    <div class="content col-lg-4 col-md-6">
+                        <div class="img">
+                            <img src="./img/banner3.jpg" alt="">
+                            <div class="card">
+                                <a
+                                    href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">Soup</a>
+                                <i class="fas fa-clock"></i>
+                                <span>10 Min Cook</span>
+                            </div>
+                        </div>
+                        <h4>The Best Cookie Recipes To Bake This Weekend</h4>
+                        <p>Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi vitae sit.</p>
+                        <div class="content__footer d-flex align-items-center">
+                            <div>
+                                <img class="rounded-circle" style="width:15%" src="./img/team2.jpg" alt="">
+                                <a href="#">Jannatul Ferdous</a>
+                            </div>
+                            <a class="text-nowrap"
+                                href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/index.html#read">Read
+                                More</a>
+                        </div>
+                    </div>
+                    <div class="content col-lg-4 col-md-6">
+                        <div class="img">
+                            <img src="./img/banner1.jpg" alt="">
+                            <div class="card">
+                                <a
+                                    href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/blog-single.html">Drinks</a>
+                                <i class="fas fa-clock"></i>
+                                <span>10 Min Cook</span>
+                            </div>
+                        </div>
+                        <h4>The Best Cookie Recipes To Bake This Weekend</h4>
+                        <p>Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi vitae sit.</p>
+                        <div class="content__footer d-flex .justify-content-between align-items-center">
+                            <div>
+                                <img class="rounded-circle" style="width:15%" src="./img/team3.jpg" alt="">
+                                <a href="#">Rashed Kabir</a>
+                            </div>
+                            <a class="text-nowrap"
+                                href="https://demo.w3layouts.com/demos_new/template_demo/01-02-2021/diner-liberty-demo_Free/668605264/web/index.html#read">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="carousel__foot" class="py-5">
+            <div class="carousel__foot__title text-center">
+                <p class="chukieu">Testimonials</p>
+                <h3>What People Say</h3>
+            </div>
+            <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"> -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <!-- Indicators -->
+                <div class="carousel-indicators ">
+                    <button role="button" data-target="#carouselExampleFade" data-slide-to="0" class="active "></button>
+                    <button role="button" data-target="#carouselExampleFade" data-slide-to="1" class=""></button>
+                    <button role="button" data-target="#carouselExampleFade" data-slide-to="2" class=""></button>
+                    <button role="button" data-target="#carouselExampleFade" data-slide-to="3" class=""></button>
+                </div>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner container py-lg-5 py-md-3 ">
+                    <div class="carousel-item active ">
+                        <img src="./img/team1.jpg" class="rounded-circle" style="width:7%" alt="">
+                        <blockquote>
+                            <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <span>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</span>
+                        <h3>John wilson</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/team2.jpg" class="rounded-circle" style="width:7%" alt="">
+                        <blockquote>
+                            <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <span>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</span>
+                        <h3>John wilson</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/team3.jpg" class="rounded-circle" style="width:7%" alt="">
+                        <blockquote>
+                            <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <span>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</span>
+                        <h3>John wilson</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/team2.jpg" class="rounded-circle" style="width:7%" alt="">
+                        <blockquote>
+                            <q>OMG! I cannot believe. It's Awesome</q>
+                        </blockquote>
+                        <span>My new site is so much faster and easier to work with than my old site. They are here to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</span>
+                        <h3>John wilson</h3>
+                        <span>Customer</span>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                </a>
+        </section>
+
+        <section id="contact">
+            <div class="container py-md-5 py-2">
+                <div class="row ">
+                    <div class="dinner row__contact col-lg-4 ">
+                        <h3>Diner</h3>
+                        <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                            tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+                        <a class="icon__diner" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="icon__diner" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="icon__diner" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="icon__diner" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="row__contact col-lg-2">
+                        <h4>Usefull Links</h4>
+                        <ul>
+                            <li><a href="#">About Us</li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog posts</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="row__contact col-lg-2">
+                        <h4>More Info</h4>
+                        <ul>
+                            <li><a href="#">History</li>
+                            <li><a href="#">Vision & Values</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="row__contact col-lg-4 form-group">
+                        <h4>Subscribe to our Newsletter</h4>
+                        <p>Enter your email and receive the latest news, updates and special offers from us.</p>
+                        <input type="email" class="form-control" placeholder="Your Email Address"
+                            style="background-color:#232220;border:none">
+                        <button type="button" class="border-0 rounded btn btn-info form-control">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="contact__footer container py-md-3 py-1">
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <p>© 2021 Diner. All rights reserved. Design by<a href="#"> W3Layouts</a></p>
+                    </div>
+                    <div class="list col-4 d-flex justify-content-between">
+                        <a href="#">Careers</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+        <section id="end" class="d-flex justify-content-center p-fixed" style="display:block;width:100%">
+            <div class="end__video">
+                <img src="//a.vdo.ai/core/assets/img/logo.svg" alt="VDO.AI" style="vertical-align:middle;height:12px">
+                <video id="my-video" class="vjs-matrix video-js" controls preload="auto" width="640" height="264"
+                    poster="https://h5.vdo.ai/uploads/thumbnails/16394881987561b89ac68dd3d.png" data-setup="{}">
+                    <source src="https://h5.vdo.ai/uploads/videos/16394881987561b89ac68dd3d.m3u8"
+                        type="application/x-mpegURL" />
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- video-js -->
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- way point -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- count up -->
+    <script src="./count_up/jquery.countup.js"></script>
+    <script src="./javascript/javascript.js"></script>
+</body>
+
+</html>
